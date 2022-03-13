@@ -1,0 +1,618 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  .container {
+    position: relative;
+    width: 100%;
+    height: 12vh;
+    
+  }
+
+  .container header {
+    margin: 0;
+  }
+  .container header a h1 {
+    font-size: 1.4rem;
+    margin: 10px 10px;
+  }
+  .container header form input{
+       width: 44%;
+       margin: 0;
+       padding: 6px;
+       font-size: 0.7rem;
+       position: absolute;
+       top: 17;
+       left: 26%;
+  }
+  .container header form i {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 24px;
+    left: 64%;
+    display: inline-block;
+  }
+  .container header .signin {
+    display: inline-block;
+     margin: 0;
+     padding: 0;
+     font-size: 10px;
+     position: absolute;
+     top: 36%;
+     left: 72%; 
+  }
+  .container header .cart {
+    display: inline-block;
+    position: absolute;
+    top: 28;
+    right: 48;
+  }
+
+  .container header .cart a i {
+    font-size: 0.8rem;
+  }
+   
+ /* menu */
+
+ .menu {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 27;
+  right:20;
+  cursor: pointer;
+}
+
+.container nav .menu i {
+  font-size: 0.9rem;
+}
+
+.nav-bar {
+  display: inline-block;
+}
+
+.container nav ul{
+  width: 60%;
+  margin-top: 10px;
+  font-size: 0.6rem;
+  padding: 2px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  position: relative;
+  top: -26%;
+  left: 45%;
+  background-color: rgba(255, 250, 250);
+  opacity: 0.9;
+  border-radius: 6px;
+}
+
+.container nav ul li a {
+  color: #000;
+
+}
+
+.container nav ul li {
+  margin: 6px 0;
+  padding: 2px 10px;
+}
+
+.container nav ul li a:hover {
+      color: #00b8f9;
+}
+	
+   .nav-bar ul.active {
+      display: none;
+    }    
+ /*  nav scroll   */
+ .container nav {
+        margin: 20px 0;
+     }
+    .container .nav-bar.fixed-top {
+            display: none;
+    }
+
+    
+   /*     adv   */
+
+   .adv {
+     position: relative;
+     width: 100%; 
+     padding: 8px; 
+     height: 30vh;
+
+
+   }
+
+   .adv h3 {
+       font-family:Georgia, 'Times New Roman', Times, serif;
+       font-size: 16px;
+       line-height: 20px;
+       padding: 0;
+       margin: 10px 6px;
+   }
+
+   .adv p {
+      font-size: 10px;
+      margin: 0;
+      padding: 10px;
+   }
+
+   .adv .adv-img {
+      display: none;
+   }
+
+   .content .content1 {
+     margin-top: 0;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+   }
+
+   .content .content1 .items {
+        max-width: 100%;
+        width: 100%;
+   }
+
+  .content button {
+       font-size: 12px;
+       padding: 10px;
+       position: absolute;
+       top: 99.5%;
+       left: 40%;
+       margin-top: 25px;
+  } 
+
+  /* popular items */
+   .popular {
+     margin: 0;
+   }
+  .popular .pop1{
+    margin: 0;
+    padding: 0;
+  }
+  .popular .pop1{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  } 
+.popular .pop1 .pop {
+  width: 260px;
+  margin-top: 20px;
+}
+
+.popular .pop1 .pop a img {
+  height: 40vh;
+}
+
+.popular button {
+   margin-top: 16px;
+}
+
+/* footer  */
+footer {
+  max-width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  overflow: visible;
+  height: 69vh;
+}
+.subscribe {
+  max-width: 100%;
+  height: 15vh;
+}
+footer .subscribe form p{
+   font-size: 12px;
+}
+
+.subscribe form .email1{
+  display: inline-block;
+     width: 54%;
+     font-size: 14px;
+     padding: 10px;
+     position: absolute;
+     top: 14%;
+     left: 14%;
+}
+
+.subscribe form .submit1 {
+   position: absolute;
+   top: 17%;
+   left: 69%;
+   font-size: 10px;
+
+}
+
+.info {
+   padding: 15px;
+}
+
+footer .info  .info1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer .copy {
+  position: relative;
+  margin-top: 0;
+  height: 16vh;
+  display: flex;
+  padding-top: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+}
+footer .copy p{
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 20px;
+}
+footer .copy .fab a i {
+  display: inline-block;
+   font-size: 7px;
+   position: relative;
+   top: -12%;
+   left: 20%;
+
+
+}
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .container {
+    position: relative;
+    width: 100%;
+    height: 10vh;
+  }
+
+  .container header {
+    margin: 0;
+  }
+  .container header a h1 {
+    font-size: 1.4rem;
+    margin: 10px 10px;
+  }
+  .container header form input{
+    display: inline-block;
+       width: 60%;
+       margin: 0;
+       padding: 6px;
+       font-size: 0.7rem;
+       position: absolute;
+       top: 29%;
+       left: 18%;
+  }
+  .container header form i {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    top: 42%;
+    left: 73%;
+  }
+  .container header .signin {
+    display: inline-block;
+     margin: 0;
+     padding: 0;
+     font-size: 10px;
+     position: absolute;
+     top: 27;
+     left: 80%; 
+  }
+  .container header .cart {
+    display: inline-block;
+    position: absolute;
+    top: 28;
+    right: 10%;
+  }
+
+  .container header .cart a i {
+    font-size: 0.8rem;
+  }
+   
+  /*  menu  */
+  .menu {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 27;
+    right:20;
+    cursor: pointer;
+  }
+
+  .container nav .menu i {
+    font-size: 0.9rem;
+  }
+  
+  .nav-bar {
+    display: inline-block;
+  }
+  
+  .container nav ul{
+    display: block;
+    width: 60%;
+    margin-top: 10px;
+    font-size: 0.7rem;
+    padding: 2px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    position: relative;
+    top: 12%;
+    left: 50%;
+    background-color: rgba(255, 250, 250);
+    opacity: 1;
+    border-radius: 6px;
+  }
+  
+  .container nav ul li a {
+    color: #000;
+  
+  }
+  
+  .container nav ul li {
+    margin: 6px 0;
+    padding: 2px 10px;
+  }
+  
+  .container nav ul li a:hover {
+        color: #00b8f9;
+  }
+
+.nav-bar ul.active {
+    display:none;
+}
+/*  nav scroll   */
+.container nav {
+      margin: 20px 0;
+   }
+  .container .nav-bar.fixed-top {
+          display: none;
+  }
+
+  
+ /*     adv   */
+
+ .adv {
+   position: relative;
+   width: 100%; 
+   padding: 10px; 
+   height: 30vh;
+
+ }
+
+ .adv h3 {
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     font-size: 16px;
+     line-height: 20px;
+ }
+
+ .adv p {
+    font-size: 10px;
+    margin: 0;
+    padding: 10px;
+ }
+
+ .adv .adv-img {
+    display: none;
+ }
+/*  Content */
+.content {
+  max-width: 100%;
+}
+ .content .content1 {
+   margin-top: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+
+.content button {
+     font-size: 12px;
+     padding: 10px;
+     position: absolute;
+     top: 99.5%;
+     left: 40%;
+     margin-top: 25px;
+} 
+
+/* popular items */
+ .popular {
+   margin: 0;
+ }
+.popular .pop1{
+  margin: 0;
+  padding: 0;
+}
+.popular .pop1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.popular .pop1 .pop {
+width: 260px;
+margin-top: 20px;
+}
+
+.popular .pop1 .pop a img {
+height: 40vh;
+}
+
+.popular button {
+ margin-top: 16px;
+}
+
+/* footer  */
+footer {
+max-width: 100%;
+width: 100%;
+position: relative;
+box-sizing: border-box;
+width: 100%;
+overflow: visible;
+height: 69vh;
+}
+
+.subscribe {
+  max-width: 100%;
+  height: 15vh;
+}
+footer .subscribe form p{
+   font-size: 12px;
+}
+
+.subscribe form .email1{
+  display: inline-block;
+     width: 54%;
+     font-size: 14px;
+     padding: 10px;
+     position: absolute;
+     top: 14%;
+     left: 14%;
+}
+
+.subscribe form .submit1 {
+   position: absolute;
+   top: 17%;
+   left: 69%;
+   font-size: 10px;
+
+}
+
+
+
+.info {
+ padding: 15px;
+}
+
+footer .info  .info1{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+footer .copy {
+position: relative;
+margin-top: 0;
+height: 16vh;
+display: flex;
+padding-top: 40px;
+flex-direction: column;
+justify-content: center;
+align-items:flex-start;
+}
+footer .copy p{
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 20px;
+}
+footer .copy .fab a i {
+ font-size: 7px;
+ position: relative;
+ top: -12%;
+ left: 30%;
+
+
+} 
+}
+
+@media (min-width: 768px) and (max-width: 1024px)  { 
+    
+    .container header .form-1 input{
+       width: 64%;
+       position: absolute;
+       left: 20.5%;
+       top:5%; 
+    }
+
+    .container header form i {
+      display: inline;
+      margin: 0;
+      padding: 0;
+      position:absolute;
+      top: 10.5%;
+      right: 16%;
+    }
+
+    .container header .signin {
+       position: absolute;
+       left: 88.5%;
+       top: 10%;
+       font-size: 0.8rem;
+       font-weight: 700;
+    }
+    .container header .cart {
+      position: absolute;
+      right: 4%;
+      top: 10%;
+    }
+
+/* Adv  */
+
+.adv {
+  max-width: 100%;
+  min-width: fit-content;
+}
+
+.adv h3 {
+   font-size: 2rem;
+}
+
+.adv p {
+  font-size: 1rem;
+}
+.adv .adv-img{
+  display: none;
+}
+ }
+
+ @media (min-width: 1025px) and (max-width: 1288px)  { 
+  .container header .form-1 input{
+    width: 64%;
+    position: absolute;
+    left: 16.5%;
+    top:5%; 
+ }
+
+ .container header form i {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  position:absolute;
+  top: 10.5%;
+  right: 20%;
+}
+
+ .container header .signin {
+    position: absolute;
+    left: 89.5%;
+    top: 10%;
+    font-size: 0.8rem;
+    font-weight: 700;
+ }
+
+ .container header .cart {
+  position: absolute;
+  right: 4%;
+  top: 10%;
+}
+
+
+
+}
+
+
+
